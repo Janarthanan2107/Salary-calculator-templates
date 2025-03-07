@@ -2,7 +2,7 @@ import React, { useState, useEffect, useMemo } from "react";
 import { Card, InputNumber, Table, Typography, Row, Col, Form, Select, Descriptions } from "antd";
 import { Pie } from "react-chartjs-2";
 import "chart.js/auto";
-import "antd/dist/reset.css";
+// import "antd/dist/reset.css";
 
 const { Title, Text } = Typography;
 const { Option } = Select;
@@ -174,7 +174,7 @@ const SalaryCalculation = () => {
         };
       }
     });
-    
+
     return amounts;
   }, [grossAmountMonthly, selectedTemplate, componentAmounts]);
 
